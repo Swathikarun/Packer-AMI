@@ -26,13 +26,15 @@ Packer is a lightweight open source tool for creating machine images for multipl
 
 - Run the below commands inorder to install Packer 
 
-```$ wget https://releases.hashicorp.com/packer/1.7.8/packer_1.7.8_linux_amd64.zip```
+```sh
+$ wget https://releases.hashicorp.com/packer/1.7.8/packer_1.7.8_linux_amd64.zip
 
-```$ unzip packer_1.7.8_linux_amd64.zip```
+$ unzip packer_1.7.8_linux_amd64.zip
 
-```$ mv packer /usr/bin/```
+$ mv packer /usr/bin/
+```
 
-- Verify the packer installation by running the below command
+- Verify the packer installation by running the below command.
 
 ```$ packer```
 
@@ -43,18 +45,22 @@ Packer is a lightweight open source tool for creating machine images for multipl
 ## Usage
 
 
-- Set the envirnonment variables (access key and secret key) in the main build file 
+- Set the envirnonment variables (access key and secret key) in the main build file.
 
 - Execute the below commands : 
 
-```$ packer init main.pkr.hcl```
-```$ packer validate main.pkr.hcl```
-```$ packer build main.pkr.hcl```
+```sh
+$ packer init main.pkr.hcl
+
+$ packer validate main.pkr.hcl
+
+$ packer build main.pkr.hcl
+```
 
 An AMI is created in our AWS account
 
 ## Result
 
 
-A custom AMI is created using packer tool ad you can using this for creating EC2 instances
+A custom AMI is created using packer tool and you can use this for creating EC2 instances.
  
