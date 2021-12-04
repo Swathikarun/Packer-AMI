@@ -36,11 +36,15 @@ $ mv packer /usr/bin/
 
 - Verify the packer installation by running the below command.
 
-```$ packer```
+```sh
+$ packer
+```
 
 - Check the Packer version
 
-```$ packer version```
+```sh
+$ packer version
+```
 
 ## Usage
 
