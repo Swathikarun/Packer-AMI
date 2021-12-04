@@ -14,7 +14,7 @@ Packer is a lightweight open source tool for creating machine images for multipl
 ## Prerequisites
 
 
-- [Install Packer](https://learn.hashicorp.com/tutorials/packer/get-started-install-cli)
+- Install [Packer](https://learn.hashicorp.com/tutorials/packer/get-started-install-cli)
 
 - [AWS IAM user with Administrative access to EC2](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_change-permissions.html#users_change_permissions-add-console)
 
